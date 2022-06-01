@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
     <body class="page">
-        <div class="header">
-          <img src="./eisenhower-matrix.jpg" class="header-image">
+        <header class="header">
+          <img src="./eisenhower-matrix.jpg" class="header-image" alt="header-image">
           <a class="details-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-        </div>
-        <div class="main">
+        </header>
+        <main class="main">
           <p id="add-task">
             <label for="new-task" class="section-title new-task-label">Add Item</label>
-            <div class="task-row">
+            <section class="task-row">
               <input id="new-task" class="task-input new-task-input" type="text">
               <button class="btn">Add</button>
-            </div>
+            </section>
           </p>
           <h3 class="section-title">Todo</h3>
           <ul id="incomplete-tasks" class="tasks-list">
@@ -25,14 +25,14 @@
               <label class="task-label">Pay Bills</label>
               <input type="text" class="task-input item-input">
               <button class="btn edit-btn">Edit</button>
-              <button class="btn delete-btn"><img src="./remove.svg" class="remove-image"></button>
+              <button class="btn delete-btn"><img src="./remove.svg" class="remove-image" alt="remove"></button>
             </li>
             <li class="task-item edit-mode">
               <input class="checkbox" type="checkbox">
               <label class="task-label">Go Shopping</label>
               <input type="text" value="Go Shopping" class="task-input item-input">
               <button class="btn edit-btn">Save</button>
-              <button class="btn delete-btn"><img src="./remove.svg" class="remove-image"></button>
+              <button class="btn delete-btn"><img src="./remove.svg" class="remove-image" alt="remove"></button>
             </li>
           </ul>
           <h3 class="section-title">Completed</h3>
@@ -42,10 +42,10 @@
               <label class="task-label label-completed">See the Doctor</label>
               <input type="text" class="task-input item-input">
               <button class="btn edit-btn">Edit</button>
-              <button class="btn delete-btn"><img src="./remove.svg" class="remove-image"></button>
+              <button class="btn delete-btn"><img src="./remove.svg" class="remove-image" alt="remove"></button>
             </li>
           </ul>
-        </div>
+        </main>
     <script src="app.js"></script>
   </body>
 </html>
